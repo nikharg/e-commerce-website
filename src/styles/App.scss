@@ -1,0 +1,46 @@
+.navbar-container{
+    height: 4rem;
+    width: 100vw;
+    padding: 0 1.5rem ;
+    background-color: rgba(240, 116, 209, 0.212);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .left{
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+    }
+    .search-container{
+        display: flex;
+        align-items: center;
+        height: 1.6rem;
+        padding: 0 0.5rem;
+        border: 1px solid black;
+        border-radius: 1.5rem;
+        background-color: transparent;
+        #s-input{
+            border: none;
+            padding: 0 0.4rem;
+            background-color: transparent;
+        }
+    }
+    .middle{
+        font-size: 2rem;
+        font-weight: 900;
+        letter-spacing: 0.1rem;
+    }
+    .right{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 20vw;
+    }
+}
+.deals{
+    background-color: teal;
+    text-align: center;
+    padding: 0.4rem 0;
+    margin: auto;
+    color:white;
+} 

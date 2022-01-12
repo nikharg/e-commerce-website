@@ -1,0 +1,73 @@
+.navbar-container {
+  height: 4rem;
+  width: 100vw;
+  padding: 0 1.5rem;
+  background-color: rgba(240, 116, 209, 0.212);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.navbar-container .left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 1rem;
+}
+
+.navbar-container .search-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 1.6rem;
+  padding: 0 0.5rem;
+  border: 1px solid black;
+  border-radius: 1.5rem;
+  background-color: transparent;
+}
+
+.navbar-container .search-container #s-input {
+  border: none;
+  padding: 0 0.4rem;
+  background-color: transparent;
+}
+
+.navbar-container .middle {
+  font-size: 2rem;
+  font-weight: 900;
+  letter-spacing: 0.1rem;
+}
+
+.navbar-container .right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 20vw;
+}
+
+.deals {
+  background-color: teal;
+  text-align: center;
+  padding: 0.4rem 0;
+  margin: auto;
+  color: white;
+}
+/*# sourceMappingURL=App.css.map */
