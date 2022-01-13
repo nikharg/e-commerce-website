@@ -44,3 +44,23 @@
     margin: auto;
     color:white;
 } 
+.slide-container{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 100vw;
+    height: 100vh;
+    background-color: aqua;
+    border: 1px solid grey;
+    button{
+        position: absolute;
+    }
+    .slide{
+        width: 100%;
+        height: 100%;
+        background-color: blue;
+    }
+    
+}

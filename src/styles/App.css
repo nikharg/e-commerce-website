@@ -70,4 +70,35 @@
   margin: auto;
   color: white;
 }
+
+.slide-container {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  width: 100vw;
+  height: 100vh;
+  background-color: aqua;
+  border: 1px solid grey;
+}
+
+.slide-container button {
+  position: absolute;
+}
+
+.slide-container .slide {
+  width: 100%;
+  height: 100%;
+  background-color: blue;
+}
 /*# sourceMappingURL=App.css.map */
