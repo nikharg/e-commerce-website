@@ -1,22 +1,27 @@
-import { NavigateBefore, NavigateNext } from "@material-ui/icons"
+import { ArrowBackIos, ArrowForwardIos } from "@material-ui/icons";
+import { sliderItems } from "../data/db";
 
 const Carousel = () => {
     return (
         <>
-            <div className="slide-container">
-                <button><NavigateBefore/></button>
-                <div className="slide">
-                    <img src="../Images/watch1.jpg" alt="image" />
+            <div className="slider-main">
+            <button className="prev"><ArrowBackIos /></button>
+            <button className="next"><ArrowForwardIos /></button>
+            {sliderItems.map((item) => (
+                <div className="slide-container" key={item.id}>
+                    <div className="slide-img">
+                        <img src={require('../Images/watch1.png')} alt="img" />
+                    </div>
+                    <div className="slide-info">
+                        <div className="title">{item.title}</div>
+                        <div className="info">{item.desc}</div>
+                        <button>Shop Now</button>
+                    </div>
                 </div>
-                <div className="slide-info">
-                    <div className="title">Title</div>
-                    <div className="info">Lorem ipsum dolor sit, amet consectetur adipisicing elit. A sint vitae distinctio illo aut hic nulla, recusandae ducimus ratione. Officia facilis exercitationem voluptatibus sit sint nisi iusto temporibus perferendis impedit!</div>
-                    <div className="btn"><button>Shop Now</button></div>
-                </div>
-                <button><NavigateNext/></button>
+            ))}
             </div>
         </>
     )
 }
 
-export default Carousel
+export default Carousel;
