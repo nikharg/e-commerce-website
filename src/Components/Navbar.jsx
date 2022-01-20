@@ -9,7 +9,7 @@ const Navbar = () => {
         <div className="lang">EN</div>
         <div className="search-container">
           <input type="text" placeholder="Search" id="s-input" />
-          <Search style={{ fontSize: 18, color: "grey" }} />
+          <Search style={{ fontSize: 18, color: "grey", position:"absolute", right: "0.8rem" }} />
         </div>
       </div>
       <div className="middle">
